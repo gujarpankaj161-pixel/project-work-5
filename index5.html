@@ -3,28 +3,22 @@
 <html>
 <head>
     <title>Student Registration Form</title>
-       <!-- Disable Right Click -->
     <script>
         document.addEventListener("contextmenu", function(e) {
             e.preventDefault();
         });
     </script>
-
-    <!-- Disable F12, Ctrl+Shift+I, Ctrl+U -->
     <script>
         document.onkeydown = function(e) {
 
-            // F12
             if (e.keyCode == 123) {
                 return false;
             }
 
-            // Ctrl+Shift+I
             if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
                 return false;
             }
 
-            // Ctrl+U
             if (e.ctrlKey && e.keyCode == 85) {
                 return false;
             }
@@ -44,7 +38,6 @@
 
     <form>
 
-        <!-- Personal Information -->
         <fieldset>
             <legend><b>Personal Information</b></legend>
 
@@ -76,7 +69,6 @@
 
         <br>
 
-        <!-- Academic Information -->
         <fieldset>
             <legend><b>Academic Information</b></legend>
 
@@ -136,7 +128,6 @@
 
         <br>
 
-        <!-- Feedback Section -->
         <fieldset>
             <legend><b>Feedback Section</b></legend>
 
